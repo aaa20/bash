@@ -23,3 +23,11 @@ pct exec $vmid -- bash -c "apt update && apt upgrade -y"
 
 echo -e "\033[34m Create LXC ID " $vmid " name " $vmname  " is completed"
 echo -e "\033[37m "
+
+
+echo -e "\033[34m -- Allow root user to remote ssh "
+echo -e "\033[37m "
+
+pct exec $vmid -- bash -c "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
+pct exec $vmid -- bash -c "systemctl restart sshd"
+
