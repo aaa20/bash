@@ -1,6 +1,6 @@
-##Сборник скриптов Bash найденных в Интернете и Telegram каналах.
+## Сборник скриптов Bash найденных в Интернете и Telegram каналах.
 
-###Ссылки
+### Ссылки
 
 [Bash Function & How to Use It {Variables, Arguments, Return}](https://phoenixnap.com/kb/bash-function)
 
