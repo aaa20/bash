@@ -9,3 +9,5 @@
 [Bash Functions Guide [Arguments, Return Value, Script Examples]](https://codefather.tech/blog/bash-functions/)
 
 [Онлайн-терминал для обработки команд Linux](https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192)
+
+[Тестирование Bash-приложений](https://habr.com/ru/articles/278937/)
