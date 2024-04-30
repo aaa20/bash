@@ -1,5 +1,6 @@
 #!/bin/bash
 # OUI Look file added with ieee-data/hwdata package
+# https://www.youtube.com/watch?v=Kz7fG8ew7Co
 
 id_like=$(awk -F= '/^ID_LIKE/{print $2}' /etc/os-release)
 
