@@ -12,6 +12,8 @@
 
 [Тестирование Bash-приложений](https://habr.com/ru/articles/278937/)
 
+[Сайт с тестовыми заданиями по настройки Linux серверов](https://sadservers.com/scenarios)
+
 
 ### Заметки
 
