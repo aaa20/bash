@@ -1,5 +1,16 @@
-- name: Generate Shell Script Unit Testing
-  # You may pin to the exact commit or the version.
-  # uses: vargiuscuola/gen-sh-unittest@39ac87b59a534fe02fed3ec5856e228d787723db
-  uses: vargiuscuola/gen-sh-unittest@v1.0
-          
+on:
+  push:
+    branches:
+      - main
+
+name: "Trigger: Push action"
+permissions: {}
+
+jobs:
+  shellcheck:
+    name: Shellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@master          
