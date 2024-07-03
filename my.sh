@@ -9,5 +9,5 @@ fi
 
 for n in $name
 do
-  echo $n
+  echo "$n"
 done

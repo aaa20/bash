@@ -12,4 +12,3 @@ function func2 {
    book2="$2"
    printf "func2=%s,book2=%s\n" "$fun2" "$book2"
 }
-

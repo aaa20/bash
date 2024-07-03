@@ -1,8 +1,8 @@
 #!/bin/bash
 
 function show_current_date {
-	echo $1
-	date $1
+	echo "$1"
+	date "$1"
 
 }
 

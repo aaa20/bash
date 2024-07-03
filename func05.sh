@@ -12,4 +12,4 @@ function print_arguments {
 
 }
 
-print_arguments $@
+print_arguments "$@"

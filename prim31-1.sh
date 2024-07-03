@@ -25,7 +25,7 @@ case $REPLY in
 	du -sh /home/*
 	else
 	echo "Home Space Utilization ($USER)"
-	du -sh $HOME
+	du -sh "$HOME"
 	fi
 	;;
 	*) echo "Invalid entry" >&2
