@@ -15,4 +15,4 @@ expr index "$STRING" "$SUBSTRING"
 STRING="this is a string"
 POS=1
 LEN=3
-echo ${STRING:$POS:$LEN}
+echo "${STRING:$POS:$LEN}"

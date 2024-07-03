@@ -3,7 +3,7 @@
 # Loops
 # loop on array member
 NAMES=(Joe Jenny Sara Tony)
-for N in ${NAMES[@]} ; do
+for N in "${NAMES[@]}" ; do
   echo "My name is $N"
 done
 
@@ -19,7 +19,7 @@ echo "======================================"
 COUNT=4
 while [ $COUNT -gt 0 ]; do
   echo "Value of count is: $COUNT"
-  COUNT=$(($COUNT - 1))
+  COUNT=$((COUNT - 1))
 done
 
 echo "======================================"
@@ -27,7 +27,7 @@ echo "======================================"
 COUNT=1
 until [ $COUNT -gt 5 ]; do
   echo "Value of count is: $COUNT"
-  COUNT=$(($COUNT + 1))
+  COUNT=$((COUNT + 1))
 done
 
 echo "======================================"
@@ -48,8 +48,8 @@ echo "====================================="
 COUNT=0
 while [ $COUNT -lt 10 ]; do
   COUNT=$((COUNT+1))
-  if [ $(($COUNT % 2)) = 0 ] ; then
+  if [ $((COUNT % 2)) = 0 ] ; then
     continue
   fi
-  echo $COUNT
+  echo "$COUNT"
 done
