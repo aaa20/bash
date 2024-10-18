@@ -14,6 +14,9 @@
 
 [Сайт с тестовыми заданиями по настройки Linux серверов](https://sadservers.com/scenarios)
 
+[Сборник bash скриптов для Proxmox](https://github.com/ddrimus/proxmox-scripts)
+
+[Proxmox VE Helper-Scripts](https://github.com/tteck/Proxmox)
 
 ### Заметки
 
