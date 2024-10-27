@@ -1,0 +1,5 @@
+auto ens33
+iface ens33 inet static
+address $IP
+netmask $NETMASK
+gateway $GATEWAY
