@@ -18,6 +18,9 @@
 
 [Proxmox VE Helper-Scripts](https://github.com/tteck/Proxmox)
 
+[Free Introduction to Bash Scripting eBook](https://github.com/bobbyiliev/introduction-to-bash-scripting?tab=readme-ov-file)
+
+
 ### Заметки
 
 
